@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#todos {
+  margin-top: 20px;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.todo-item.completed {
+  background-color: #e2e2e2;
+  text-decoration: line-through;
+}
+
+#add-todo-form {
+  margin-top: 20px;
+  display: flex;
+}
+
+#add-todo-form input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+#add-todo-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
